@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+body{
+    margin: 0;
+    height: 100vh;
+}
+.conteiner-juego{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+.boton-generar-piezas{
+    width: 40%;
+    padding: 10px 0;
+    color: #ffffff;
+    background-color: #fba9b6;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.boton-generar-piezas:hover{
+    background-color: #ffc0cb;
+}
