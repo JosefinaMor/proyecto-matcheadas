@@ -15,8 +15,50 @@ body{
 h1{
     font-size: 50px;
 }
+.barra-control{
+    width: 550px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #fba9b6;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.barra-control span{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 35px<
+}
+.barra-control button{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #fba9b6;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.contenedor-piezas-juego{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px palevioletred solid;
+    border-radius: 10px;
+    margin: 20px;
+}
+.pieza{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+.pieza i{
+    
+}
 .boton-generar-piezas{
-    width: 40%;
+    width: 550px;
     padding: 10px 0;
     color: #ffffff;
     background-color: #fba9b6;
