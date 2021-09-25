@@ -8,12 +8,16 @@ const generarNroAlAzar = (array) =>{
 }
 //funcionalidad de generar piezas al azar
 const generarPiezaAlAzar = () =>{
-    console.log(arrayPiezas[generarNroAlAzar(arrayPiezas)]);
+     return arrayPiezas[generarNroAlAzar(arrayPiezas)];
 }
 //funcionalidad de generar tablero
 const generarTablero = () =>{
-    
+    for (let i = 0; i < 9; i++) {
+        for (let j = 0; j < 9; j++) {
+            contenedorPiezasJuego.innerHTML = `<div class="pieza"><i class="${generarPiezaAlAzar()}"></i></div>`  
+        }
+    }
 }
 
 
-botonGenerarPiezas.onclick = generarPiezaAlAzar;
+botonGenerarPiezas.onclick = generarTablero;
